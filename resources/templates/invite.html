@@ -1,6 +1,7 @@
 {% extends "templates/base.html" %}
 {% block content %}
-<p>This slack team has open invites! Invite yoself!</p>
+<div class="slogan">自己的邀請還自己寄<br/>g0v零時政府的slack群組開放申請中！</div>
+<div class="line"></div>
 
 {% if not fresh %}
 {% if not valid %}
@@ -9,17 +10,17 @@
 </div>
 {% else %}
 <div class="success">
-  <span>Success! You should receive an invite pretty soon.</span>
+  <span>成功寄出！可能需要等待 10 分鐘才會收到信。</span>
 </div>
 {% endif %}
 {% endif %}
 <form action="/" method="POST">
-  <p>
-    <strong>Your Email Address</strong>
-    <input type="email" name="email" required placeholder="your email here" {% if not valid %} value={{data.email}} {% endif %}>
-  </p>
-  <div id="invite_submit">
-    <input type="submit" value="Invite Yoself!">
+  <div class="email">Your Email Adress</div>
+  <div>
+    <input type="email" name="email" placeholder="Your email here"{% if not valid %} value={{data.email}} {% endif %}>
+  </div>
+  <div class="button-div">
+    <input class="button" type="submit" value="邀請自己">
   </div>
 </form>
 {% endblock %}

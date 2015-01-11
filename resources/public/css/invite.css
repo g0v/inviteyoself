@@ -1,0 +1,90 @@
+.container{
+  width: 486px;
+  margin:0 auto;
+  margin-top:50px;
+}
+.url{
+  background-image: url('/img/g0vsla-03.png');
+  height: 71px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.url-left{
+  float: left;
+  font-size: 28pt;
+  margin-top:10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.url-right{
+  float:right;
+  font-size: 22pt;
+  margin-top: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.slogan{
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+  line-height: 22pt;
+}
+.email{
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 12pt;
+  line-height: 22pt;
+  font-family: 'Lato', sans-serif;
+}
+.line{
+  background-color: black;
+  height: 2px;
+  width: 130px;
+  margin: 0 auto;
+}
+input[type="email"] {
+  background-color: rgb(242,242,242);
+  border: 1px black solid;
+  width: 100%;
+  font-size: 12pt;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.button-div{
+  text-align: center;
+  width: 100%;
+}
+.button{
+  background-color: rgb(52,52,52);
+  border: 0px black solid;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 12pt;
+  color: white;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.line2{
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  margin: 0 auto;
+}
+.info{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 10pt;
+  line-height: 16pt;
+}

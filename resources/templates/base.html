@@ -9,19 +9,25 @@
     <title>inviteyoself</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% style "http://fonts.googleapis.com/css?family=Pinyon+Script" %}
-    {% style "/css/screen.css" %}
+    {% style "http://fonts.googleapis.com/css?family=Lato:300,400" %}
+    {% style "/css/invite.css" %}
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
-    <header>
-      <h1>inviteyoself</h1>
-    </header>
-    <section>
-      {% block content %}
-      {% endblock %}
-    </section>
-
+    <div class="container">
+      <img src="/img/g0vsla-02.png" />
+      <div class="url">
+        <div class="url-left">inviteyoself</div>
+        <div class="url-right">g0v-tw.slack.com</div>
+      </div>
+      <img src="/img/g0vsla-04.png" />
+      <section>
+        {% block content %}
+        {% endblock %}
+      </section>
+      <div class="line2"></div>
+      <div class="info">10分鐘之內會收到信，若沒有收到表示已經有帳號<br/>沒有收到請聯絡lyforever62[at]hotmail.com</div>
+    </div>
   </body>
 </html>
