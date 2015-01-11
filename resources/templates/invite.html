@@ -1,6 +1,6 @@
 {% extends "templates/base.html" %}
 {% block content %}
-<div class="slogan">自己的邀請還自己寄<br/>g0v零時政府的slack群組開放申請中！</div>
+<div class="slogan">自己的邀請函自己寄<br/>g0v零時政府的slack群組開放申請中！</div>
 <div class="line"></div>
 
 {% if not fresh %}
@@ -17,7 +17,7 @@
 <form action="/" method="POST">
   <div class="email">Your Email Adress</div>
   <div>
-    <input type="email" name="email" placeholder="Your email here"{% if not valid %} value={{data.email}} {% endif %}>
+    <input autofocus="autofocus" type="email" name="email" placeholder="Your email here" {% if not valid %} value={{data.email}} {% endif %}>
   </div>
   <div class="button-div">
     <input class="button" type="submit" value="邀請自己">

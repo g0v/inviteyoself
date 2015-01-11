@@ -1,38 +1,41 @@
-.container{
+.container {
   width: 486px;
   margin:0 auto;
   margin-top:50px;
 }
-.url{
+
+.url {
   background-image: url('/img/g0vsla-03.png');
   height: 71px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
-.url-left{
+.url-left {
   float: left;
   font-size: 28pt;
   margin-top:10px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-.url-right{
+
+.url-right {
   float:right;
   font-size: 22pt;
   margin-top: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
-.slogan{
+
+.slogan {
   text-align: center;
   margin-top: 12px;
   margin-bottom: 10px;
   font-size: 14pt;
   line-height: 22pt;
 }
-.email{
+
+.email {
   text-align: center;
   margin-top: 12px;
   margin-bottom: 6px;
@@ -40,12 +43,14 @@
   line-height: 22pt;
   font-family: 'Lato', sans-serif;
 }
-.line{
+
+.line {
   background-color: black;
   height: 2px;
   width: 130px;
   margin: 0 auto;
 }
+
 input[type="email"] {
   background-color: rgb(242,242,242);
   border: 1px black solid;
@@ -57,11 +62,13 @@ input[type="email"] {
   padding-right: 15px;
   padding-left: 15px;
 }
-.button-div{
+
+.button-div {
   text-align: center;
   width: 100%;
 }
-.button{
+
+.button {
   background-color: rgb(52,52,52);
   border: 0px black solid;
   width: 30%;
@@ -75,16 +82,49 @@ input[type="email"] {
   padding-left: 15px;
 }
 
-.line2{
+.line2 {
   background-color: black;
   height: 2px;
   width: 100%;
   margin: 0 auto;
 }
-.info{
+
+.info {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 6px;
   font-size: 10pt;
   line-height: 16pt;
+}
+
+.error,.success {
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding:0.75em;
+}
+
+.error {
+  background: #fbe3e4;
+  color: #96151b;
+}
+
+.error a {
+  color: #6a0f13;
+}
+
+.error a:hover {
+  color: #110203;
+}
+
+.success {
+  background: #e6efc2;
+  color:#56651a;
+}
+
+.success a {
+  color:#333c10;
+}
+
+.success a:hover {
+  color:#000;
 }
