@@ -81,7 +81,7 @@ input[type="email"] {
   padding: 5px;
   padding-right: 15px;
   padding-left: 15px;
-	cursor:pointer;
+  cursor:pointer;
 }
 
 .line2 {
@@ -135,37 +135,38 @@ input[type="email"] {
 
 @media only screen and (max-width: 600px) {
 
-	body{
-		font-size:1em;
-	}
+  body {
+    font-size: 1em;
+  }
 
-	img{
-		width: 100%;
-	}
-	
-	#container{
-		width:90%;
-		margin:0 auto;
-		margin-top:5%;
-	}
-	#url{
-		background-position:center center;
-		background-repeat:no-repeat;
-		background-size: contain;
-		height:4em;
-		margin: 5px 0;
-	}
+  img {
+    width: 100%;
+  }
 
-	#url-left{
-		position:relative;
-		top:0.2em;
-		height:1em;
-		font-size: 1.6em;
-	}
-	#url-right{
-		position:relative;
-		top:0.15em;
-		height:1em;
-		font-size: 1.25em;
-	}
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .url {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4em;
+    margin: 5px 0;
+  }
+
+  .url-left {
+    position: relative;
+    top: 0.2em;
+    height: 1em;
+    font-size: 1.6em;
+  }
+
+  .url-right {
+    position: relative;
+    top: 0.15em;
+    height: 1em;
+    font-size: 1.25em;
+  }
 }
